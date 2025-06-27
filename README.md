@@ -93,6 +93,8 @@ Los cables de control y señal, como PS-ON y Power Good, se mantuvieron conectad
    - Al otro lado del fusible se conectan la misma cantidad de cables del mismo color, los cuales terminan en conectores banana hembra para entregar la salida al usuario.  
    - ⚠️ **Es fundamental asegurarse de que las terminales Faston no se toquen entre sí.** Para evitar cortocircuitos, se debe aislar correctamente cada conexión con **tubo termocontraíble** o **cinta aisladora**.
 
+![Conexión de fusible con terminales Faston y conector banana](images/conexionFusibleConectorBanana.jpg)
+
 8. Se conserva el ventilador original de la fuente (extracción) y se agrega un segundo ventilador para ingreso de aire. Este ventilador es de 12 V y consume 0.7 W. 
 
 9. Como no se disponía de más cables amarillos, el ventilador se alimenta mediante una derivación desde el conector Molex de la fuente, utilizando su línea de 12 V y GND. Esto se debe a que, antes de decidir agregar el ventilador adicional, se habían desoldado algunos cables amarillos pensando que no serían necesarios. Si no se hubieran retirado, no habría hecho falta esta derivación. Esta opción sigue siendo segura debido al bajo consumo del ventilador.
