@@ -94,7 +94,7 @@ Los cables de control y señal, como PS-ON y Power Good, se mantuvieron conectad
    - ⚠️ **Es fundamental asegurarse de que las terminales Faston no se toquen entre sí.** Para evitar cortocircuitos, se debe aislar correctamente cada conexión con **tubo termocontraíble** o **cinta aisladora**.
 
 <p align="center">
-  <img src="images/conexionFusibleConectorBanana.jpg" width="700" high="400">
+  <img src="images/conexionFusibleConectorBanana.jpg" width="200" height="350">
 </p>
 
 
