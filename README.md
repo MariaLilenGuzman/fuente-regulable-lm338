@@ -5,8 +5,18 @@
 Proyecto de fuente de alimentación variable usando una fuente ATX reciclada y un regulador de voltaje **LM338K**. Diseñada para uso en laboratorio o proyectos electrónicos caseros, permite obtener salidas fijas y una salida ajustable con medición digital.
 
 ---
+## Índice
 
-## ✅ Características
+- [Características](#-características)
+- [Proceso de construcción](#-proceso-de-construcción)
+- [Lista de materiales](#-lista-de-materiales)
+- [Documentación técnica](#-documentación-técnica)
+- [Licencia](#-licencia)
+- [Autora](#-autora)
+
+---
+
+## Características
 
 - 🔌 **Salidas fijas**: 3.3V, 5V y 12V (proporcionadas por la fuente ATX).
 - 🎛️ **Salida variable**: ajustable con LM338K mediante potenciómetro.
