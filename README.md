@@ -11,6 +11,7 @@ Proyecto de fuente de alimentación variable usando una fuente ATX reciclada y u
 - 🔌 **Salidas fijas**: 3.3V, 5V y 12V (proporcionadas por la fuente ATX).
 - 🎛️ **Salida variable**: ajustable con LM338K mediante potenciómetro.
 - 📟 **Medición digital**: voltímetro y amperímetro para la salida variable.
+- 🧲 Incluye conector **Molex** para alimentar periféricos como discos duros SATA o ventiladores adicionales.
 - 🔧 Basada en componentes fáciles de conseguir y bajo costo.
 
 ---
@@ -58,11 +59,27 @@ Incluye:
 
 ## 🛠️ Proceso de construcción
 
-Este proyecto fue desarrollado reutilizando una fuente ATX de PC como base. Se extrajeron los 3.3V, 5V y 12V directamente desde el cableado original, mientras que la salida variable se implementó usando un regulador LM338K montado sobre un disipador de calor.
+1. Se utiliza una fuente de PC ATX genérica de 500 W como base para el proyecto.
 
-Se usaron fusibles de automotor para proteger cada salida, conectados mediante terminales Faston hembra de 6.3 mm. Las conexiones se realizaron en una placa perforada, organizada dentro de una caja reciclada. La medición de tensión y corriente de la salida variable se logra con un módulo digital de voltímetro/amperímetro.
+2. Se extrae la fuente de su carcasa metálica original para instalarla en una caja estanca de plástico. Esto se hace para evitar riesgos eléctricos asociados a la carcasa metálica y asegurar un aislamiento seguro.
 
-> *(Podés expandir esto con detalles sobre el montaje, pruebas, errores, mejoras, etc.)*
+3. Se corta el conector ATX de 24 pines, ya que no se utilizará en esta configuración.
+
+4. Para obtener las salidas de voltaje estándar de 3.3 V, 5 V y 12 V:
+   - Se sueldan entre sí dos cables naranjas (3.3 V) a una terminal Faston hembra de 6.3 mm.
+   - Se sueldan tres cables rojos (5 V) y tres cables amarillos (12 V), cada conjunto a su respectiva terminal Faston hembra de 6.3 mm.
+
+5. Como no se planea usar múltiples salidas simultáneamente, se prepararon dos pares de tres cables negros para la conexión a tierra, terminados en conectores banana hembra.
+
+6. Se instalan fusibles de automotor para proteger cada salida: 3 A para 3.3 V, 3 A para 5 V, y 5 A para 12 V.
+
+7. Se conserva el ventilador original de la fuente (extracción) y se agrega un segundo ventilador para ingreso de aire. Este ventilador es de 12 V y consume 0.7 W. 
+
+8. Como no se disponía de más cables amarillos, el ventilador se alimenta mediante una derivación desde el conector Molex de la fuente, utilizando su línea de 12 V y GND. Esta opción es segura debido al bajo consumo del ventilador.
+
+9. Se deja disponible el conector Molex original para alimentar dispositivos como discos duros SATA de 3.5". Esta salida es útil para pruebas, alimentación auxiliar o recuperación de datos sin necesidad de carcasa externa.
+
+10. Finalmente, se monta el circuito regulable con LM338K sobre un disipador de calor, y se conecta a la salida variable. Se agrega un voltímetro/amperímetro digital para monitorear esta salida.
 
 ---
 
