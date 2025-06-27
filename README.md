@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Project Status](https://img.shields.io/badge/Status-En%20desarrollo-blue)
 
-Conversión de fuente ATX de computadora a banco de alimentación profesional con salidas fijas y variable, incluyendo sistema de medición digital de voltaje y corriente.
+Proyecto de fuente de alimentación variable usando una fuente ATX reciclada y un regulador de voltaje **LM338K**. Diseñada para uso en laboratorio o proyectos electrónicos caseros, permite obtener salidas fijas y una salida ajustable con medición digital.
 
 ![](https://via.placeholder.com/800x400?text=Imagen+Principal+del+Proyecto)
 
@@ -55,5 +55,87 @@ A --> C[Regulador LM338K]
 C --> D[Medición V/A Digital]
 D --> E[Salida Variable]
 
+
+# ⚡ Fuente regulable con LM338K
+
+Proyecto de fuente de alimentación variable usando una fuente ATX reciclada y un regulador de voltaje **LM338K**. Diseñada para uso en laboratorio o proyectos electrónicos caseros, permite obtener salidas fijas y una salida ajustable con medición digital.
+
+---
+
+## ✅ Características
+
+- 🔌 **Salidas fijas**: 3.3V, 5V y 12V (proporcionadas por la fuente ATX).
+- 🎛️ **Salida variable**: ajustable con LM338K mediante potenciómetro.
+- 📟 **Medición digital**: voltímetro y amperímetro para la salida variable.
+- 🔧 Basada en componentes fáciles de conseguir y bajo costo.
+
+---
+
+## 📷 Vista previa
+
+> *(Agregar aquí una imagen real o render del prototipo armado)*
+
+```
+Ruta sugerida: /images/vista_previa.png
+```
+
+---
+
+## 📐 Diagrama de bloques
+
+
+
+---
+
+## 📋 Lista de materiales
+
+Ver archivo en: `/materiales/lista_componentes.xlsx`
+
+Incluye:
+
+- Fuente ATX reciclada
+- LM338K con disipador
+- Potenciómetro 5K
+- Voltímetro/amperímetro digital
+- Borneras
+- Placa perforada o PCB
+- Caja o carcasa
+- Fusibles de automotor
+- Terminales Faston hembra 6.3 mm (para conexión de los fusibles)
+
+---
+
+## 📎 Documentación técnica
+
+- Esquema eléctrico: `docs/esquema_electrico.pdf`
+- Diagrama de bloques: `docs/diagrama_bloques.png`
+- Fotos del armado: `docs/fotos_armado/`
+
+
+---
+
+## 🧠 Cómo usar
+
+1. Conectar la fuente ATX al módulo de salidas.
+2. Ajustar el potenciómetro para modificar el voltaje variable.
+3. Usar la medición digital para ver los valores en tiempo real.
+4. No exceder los límites de corriente del LM338K (hasta 5A con disipación adecuada).
+
+---
+
+## 📜 Licencia
+
+Este proyecto está bajo la licencia **MIT**. Podés usarlo, modificarlo y compartirlo libremente dando crédito al autor.
+
+Ver archivo: [`LICENSE`](./LICENSE)
+
+---
+
+## 🙋‍♀️ Autora
+
+Proyecto desarrollado por **María Lilen Guzmán**.
+
+- Portfolio: *(link opcional)*
+- Contacto: *(email opcional)*
 
 
