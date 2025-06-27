@@ -65,6 +65,9 @@ Incluye:
 
 3. Se corta el conector ATX de 24 pines, ya que no se utilizará en esta configuración.
 
+3.1. Se contaron cuántos cables de cada color (rojo, amarillo, naranja y negro) iban a utilizarse en el proyecto, y se desoldaron los que sobraban. Esta decisión se tomó para mantener el interior más ordenado y facilitar las conexiones.
+Los cables de control y señal, como PS-ON y Power Good, se mantuvieron conectados ya que son necesarios para el funcionamiento básico de la fuente, aunque su uso específico se explicará más adelante.
+
 4. Para obtener las salidas de voltaje estándar de 3.3 V, 5 V y 12 V:
    - Se sueldan entre sí dos cables naranjas (3.3 V) a una terminal Faston hembra de 6.3 mm.
    - Se sueldan tres cables rojos (5 V) y tres cables amarillos (12 V), cada conjunto a su respectiva terminal Faston hembra de 6.3 mm.
