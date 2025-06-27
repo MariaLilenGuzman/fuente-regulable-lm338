@@ -81,13 +81,17 @@ Incluye:
 4. Se contaron cuántos cables de cada color (rojo, amarillo, naranja y negro) iban a utilizarse en el proyecto, y se desoldaron los que sobraban. Esta decisión se tomó para mantener el interior más ordenado y facilitar las conexiones.
 Los cables de control y señal, como PS-ON y Power Good, se mantuvieron conectados ya que son necesarios para el funcionamiento básico de la fuente, aunque su uso específico se explicará más adelante.
 
-5. Para obtener las salidas de voltaje estándar de 3.3 V, 5 V y 12 V:
-   - Se sueldan entre sí dos cables naranjas (3.3 V) a una terminal Faston hembra de 6.3 mm.
-   - Se sueldan tres cables rojos (5 V) y tres cables amarillos (12 V), cada conjunto a su respectiva terminal Faston hembra de 6.3 mm.
+5. Para obtener las salidas de voltaje estándar de 3.3 V, 5 V y 12 V:  
+   - Se sueldan dos cables naranjas (3.3 V), tres cables rojos (5 V) y tres cables amarillos (12 V) provenientes de la fuente ATX, cada conjunto a una terminal Faston hembra de 6.3 mm.  
+   - Estas terminales se usarán para uno de los extremos de los fusibles de automotor, permitiendo proteger cada línea de tensión antes de llegar al usuario.
 
 6. Como no se planea usar múltiples salidas simultáneamente, se prepararon dos pares de tres cables negros para la conexión a tierra, terminados en conectores banana hembra.
 
-7. Se instalan fusibles de automotor para proteger cada salida: 3 A para 3.3 V, 3 A para 5 V, y 5 A para 12 V.
+7. Se instalan fusibles de automotor para proteger cada salida: 3 A para 3.3 V, 3 A para 5 V y 5 A para 12 V.  
+   - Cada fusible se inserta entre dos terminales Faston hembra de 6.3 mm.  
+   - A un lado se conectan las terminales mencionadas en el punto 5, con los cables soldados provenientes de la fuente ATX.  
+   - Al otro lado del fusible se conectan la misma cantidad de cables del mismo color, los cuales terminan en conectores banana hembra para entregar la salida al usuario.  
+   - ⚠️ **Es fundamental asegurarse de que las terminales Faston no se toquen entre sí.** Para evitar cortocircuitos, se debe aislar correctamente cada conexión con **tubo termocontraíble** o **cinta aisladora**.
 
 8. Se conserva el ventilador original de la fuente (extracción) y se agrega un segundo ventilador para ingreso de aire. Este ventilador es de 12 V y consume 0.7 W. 
 
