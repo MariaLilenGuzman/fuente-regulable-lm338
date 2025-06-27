@@ -64,25 +64,24 @@ Incluye:
 2. Se extrae la fuente de su carcasa metálica original para instalarla en una caja estanca de plástico. Esto se hace para evitar riesgos eléctricos asociados a la carcasa metálica y asegurar un aislamiento seguro.
 
 3. Se corta el conector ATX de 24 pines, ya que no se utilizará en esta configuración.
-
-3.1. Se contaron cuántos cables de cada color (rojo, amarillo, naranja y negro) iban a utilizarse en el proyecto, y se desoldaron los que sobraban. Esta decisión se tomó para mantener el interior más ordenado y facilitar las conexiones.
+4. Se contaron cuántos cables de cada color (rojo, amarillo, naranja y negro) iban a utilizarse en el proyecto, y se desoldaron los que sobraban. Esta decisión se tomó para mantener el interior más ordenado y facilitar las conexiones.
 Los cables de control y señal, como PS-ON y Power Good, se mantuvieron conectados ya que son necesarios para el funcionamiento básico de la fuente, aunque su uso específico se explicará más adelante.
 
-4. Para obtener las salidas de voltaje estándar de 3.3 V, 5 V y 12 V:
+5. Para obtener las salidas de voltaje estándar de 3.3 V, 5 V y 12 V:
    - Se sueldan entre sí dos cables naranjas (3.3 V) a una terminal Faston hembra de 6.3 mm.
    - Se sueldan tres cables rojos (5 V) y tres cables amarillos (12 V), cada conjunto a su respectiva terminal Faston hembra de 6.3 mm.
 
-5. Como no se planea usar múltiples salidas simultáneamente, se prepararon dos pares de tres cables negros para la conexión a tierra, terminados en conectores banana hembra.
+6. Como no se planea usar múltiples salidas simultáneamente, se prepararon dos pares de tres cables negros para la conexión a tierra, terminados en conectores banana hembra.
 
-6. Se instalan fusibles de automotor para proteger cada salida: 3 A para 3.3 V, 3 A para 5 V, y 5 A para 12 V.
+7. Se instalan fusibles de automotor para proteger cada salida: 3 A para 3.3 V, 3 A para 5 V, y 5 A para 12 V.
 
-7. Se conserva el ventilador original de la fuente (extracción) y se agrega un segundo ventilador para ingreso de aire. Este ventilador es de 12 V y consume 0.7 W. 
+8. Se conserva el ventilador original de la fuente (extracción) y se agrega un segundo ventilador para ingreso de aire. Este ventilador es de 12 V y consume 0.7 W. 
 
-8. Como no se disponía de más cables amarillos, el ventilador se alimenta mediante una derivación desde el conector Molex de la fuente, utilizando su línea de 12 V y GND. Esto se debe a que, antes de decidir agregar el ventilador adicional, se habían desoldado algunos cables amarillos pensando que no serían necesarios. Si no se hubieran retirado, no habría hecho falta esta derivación. Esta opción sigue siendo segura debido al bajo consumo del ventilador.
+9. Como no se disponía de más cables amarillos, el ventilador se alimenta mediante una derivación desde el conector Molex de la fuente, utilizando su línea de 12 V y GND. Esto se debe a que, antes de decidir agregar el ventilador adicional, se habían desoldado algunos cables amarillos pensando que no serían necesarios. Si no se hubieran retirado, no habría hecho falta esta derivación. Esta opción sigue siendo segura debido al bajo consumo del ventilador.
 
-9. Se deja disponible el conector Molex original para alimentar dispositivos como discos duros SATA de 3.5". Esta salida es útil para pruebas, alimentación auxiliar o recuperación de datos sin necesidad de carcasa externa.
+10. Se deja disponible el conector Molex original para alimentar dispositivos como discos duros SATA de 3.5". Esta salida es útil para pruebas, alimentación auxiliar o recuperación de datos sin necesidad de carcasa externa.
 
-10. Finalmente, se monta el circuito regulable con LM338K sobre un disipador de calor, y se conecta a la salida variable. Se agrega un voltímetro/amperímetro digital para monitorear esta salida.
+11. Finalmente, se monta el circuito regulable con LM338K sobre un disipador de calor, y se conecta a la salida variable. Se agrega un voltímetro/amperímetro digital para monitorear esta salida.
 
 ---
 
