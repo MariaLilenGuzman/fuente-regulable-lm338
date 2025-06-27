@@ -75,7 +75,7 @@ Incluye:
 
 7. Se conserva el ventilador original de la fuente (extracción) y se agrega un segundo ventilador para ingreso de aire. Este ventilador es de 12 V y consume 0.7 W. 
 
-8. Como no se disponía de más cables amarillos, el ventilador se alimenta mediante una derivación desde el conector Molex de la fuente, utilizando su línea de 12 V y GND. Esta opción es segura debido al bajo consumo del ventilador.
+8. Como no se disponía de más cables amarillos, el ventilador se alimenta mediante una derivación desde el conector Molex de la fuente, utilizando su línea de 12 V y GND. Esto se debe a que, antes de decidir agregar el ventilador adicional, se habían desoldado algunos cables amarillos pensando que no serían necesarios. Si no se hubieran retirado, no habría hecho falta esta derivación. Esta opción sigue siendo segura debido al bajo consumo del ventilador.
 
 9. Se deja disponible el conector Molex original para alimentar dispositivos como discos duros SATA de 3.5". Esta salida es útil para pruebas, alimentación auxiliar o recuperación de datos sin necesidad de carcasa externa.
 
