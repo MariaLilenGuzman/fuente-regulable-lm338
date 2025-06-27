@@ -26,6 +26,15 @@ Conversión de fuente ATX de computadora a banco de alimentación profesional co
   - Amperímetro digital: 0-5A ±0.01A
   - Pantalla LCD o LED dual
 
+## ⚠️ Advertencias de Seguridad
+
+¡Alto voltaje! La fuente ATX contiene condensadores que mantienen carga
+Usar siempre:
+  - Guantes aislantes
+  - Gafas de protección
+  - Herramientas con aislamiento
+  - Nunca trabajar con la fuente conectada a la red eléctrica
+
 ## 📦 Componentes Clave
 
 | Componente | Especificación |
@@ -45,3 +54,6 @@ A[Fuente ATX] --> B[Salidas Fijas 3.3V/5V/12V]
 A --> C[Regulador LM338K]
 C --> D[Medición V/A Digital]
 D --> E[Salida Variable]
+
+
+
