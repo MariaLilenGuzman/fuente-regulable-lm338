@@ -8,11 +8,11 @@ Proyecto de fuente de alimentación variable usando una fuente ATX reciclada y u
 ## Índice
 
 - [Características](#características)
-- [Proceso de construcción](#-proceso-de-construcción)
-- [Lista de materiales](#-lista-de-materiales)
-- [Documentación técnica](#-documentación-técnica)
-- [Licencia](#-licencia)
-- [Autora](#-autora)
+- [Proceso de construcción](#proceso-de-construcción)
+- [Lista de materiales](#lista-de-materiales)
+- [Documentación técnica](#documentación-técnica)
+- [Licencia](#licencia)
+- [Autora](#autora)
 
 ---
 
