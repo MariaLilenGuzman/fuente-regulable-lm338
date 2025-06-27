@@ -11,7 +11,7 @@ Proyecto de fuente de alimentación variable usando una fuente ATX reciclada y u
 - 🔌 **Salidas fijas**: 3.3V, 5V y 12V (proporcionadas por la fuente ATX).
 - 🎛️ **Salida variable**: ajustable con LM338K mediante potenciómetro.
 - 📟 **Medición digital**: voltímetro y amperímetro para la salida variable.
-- 🧲 Incluye conector **Molex** para alimentar periféricos como discos duros SATA o ventiladores adicionales.
+- 🧲 Incluye conector **Molex** para alimentar periféricos como discos duros SATA.
 - 🔧 Basada en componentes fáciles de conseguir y bajo costo.
 
 ---
