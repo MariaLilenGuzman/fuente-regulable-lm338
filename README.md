@@ -26,7 +26,7 @@ Proyecto de fuente de alimentación variable usando una fuente ATX reciclada y u
 
 ---
 
-## 📷 Vista previa
+## Vista previa
 
 > *(Agregar aquí una imagen real o render del prototipo armado)*
 
@@ -36,12 +36,12 @@ Ruta sugerida: /images/vista_previa.png
 
 ---
 
-## 📐 Diagrama de bloques
+## Diagrama de bloques
 
 imagen agregar
 
 ---
-## 📋 Lista de materiales
+## Lista de materiales
 
 Ver archivo en: `/materiales/lista_componentes.xlsx`
 
@@ -59,7 +59,7 @@ Incluye:
 - Capacitores electrolíticos y cerámicos (para filtrado de la salida regulada)
 ---
 
-## 📎 Documentación técnica
+## Documentación técnica
 
 - Esquema eléctrico: `docs/esquema_electrico.pdf`
 - Diagrama de bloques: `docs/diagrama_bloques.png`
@@ -67,7 +67,7 @@ Incluye:
 
 ---
 
-## 🛠️ Proceso de construcción
+## Proceso de construcción
 
 1. Se utiliza una fuente de PC ATX genérica de 500 W como base para el proyecto.
 
@@ -95,7 +95,7 @@ Los cables de control y señal, como PS-ON y Power Good, se mantuvieron conectad
 
 ---
 
-## 🧠 Cómo usar
+## Cómo usar
 
 1. Conectar la fuente ATX al módulo de salidas.
 2. Ajustar el potenciómetro para modificar el voltaje variable.
@@ -104,7 +104,7 @@ Los cables de control y señal, como PS-ON y Power Good, se mantuvieron conectad
 
 ---
 
-## 📜 Licencia
+## Licencia
 
 Este proyecto está bajo la licencia **MIT**. Podés usarlo, modificarlo y compartirlo libremente dando crédito al autor.
 
@@ -112,7 +112,7 @@ Ver archivo: [`LICENSE`](./LICENSE)
 
 ---
 
-## 🙋‍♀️ Autora
+## Autora
 
 Proyecto desarrollado por **María Lilen Guzmán**.
 
